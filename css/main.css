@@ -10,7 +10,7 @@ header{
     width: 1000px;
     font-family: cursive;
     margin-top: 10px;
-    margin-left: calc((100% - 1000px) / 2);
+    margin-left: calc((80% - 1000px) / 2);
     background-color: transparent
 } 
 
@@ -79,7 +79,8 @@ p{
 
 section {
     display: inline-block;
-    width: 100%;
+    width: 80%;
+    float: left;
 }
 
 section>img {
@@ -99,8 +100,5 @@ div>a {
     padding-bottom: 8px;
     background-color: #FF4622;
     font-style: normal;
-    
-    
-   
 }
 
